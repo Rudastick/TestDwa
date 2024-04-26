@@ -18,7 +18,7 @@ public class SequenceAnalyzer {
 
     }
 
-    public static int[][] readFromFileToArray(String fileNameWithPath) throws IOException {
+    public static int[][] readFromFileToArray(String fileNameWithPath) {
 
         try (FileReader fileReader = new FileReader(fileNameWithPath); BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             ArrayList<String> numbersAsString = new ArrayList();
