@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class SequenceAnalyzer {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String fileName = "liczby.txt"; // lub podaj ścieżke - można teżby było zrobić tu objekt scannera i podstawic filename pod String ze scannera.
         File file = new File(fileName);
 
